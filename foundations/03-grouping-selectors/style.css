@@ -1,0 +1,14 @@
+.global_button.button1.button2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.button1 {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.button2 {
+    background-color: yellow;
+}
