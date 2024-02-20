@@ -1,0 +1,19 @@
+.pink1, .pink2, .pink3 {
+    background-color: pink;
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+.pink2 {
+    font-size: 36px;
+}
+
+#id1 {
+    font-size: 36px;
+    color: blue;
+}
+
+#id2 {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: lightgreen;
+}
