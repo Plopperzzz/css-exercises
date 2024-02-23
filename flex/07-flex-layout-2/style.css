@@ -7,7 +7,7 @@ body {
 .header {
   height: 72px;
   background: darkmagenta;
-  color: white;
+  color: #eee;
 }
 
 .footer {
@@ -27,3 +27,62 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Solution */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer,
+.header {
+  display: flex;
+  align-items: center;
+}
+.header {
+  font-size: 32px;
+  font-weight: 1000;
+  padding-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  margin: 20px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 22px;
+}
+
+.sidebar{
+  flex-shrink: 0;
+  padding: 10px;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex: 1 0;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  padding: 32px;
+}
+ .card {
+  width: 300px;
+  height: 400px;
+  padding: 16px;
+  margin: 16px;
+ }
