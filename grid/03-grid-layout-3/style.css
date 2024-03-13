@@ -150,6 +150,7 @@
 .article{
   grid-column: 2 / 3;
   grid-row: 3/ 4;
+  resize: both;
 
   display: grid;
   gap: 15px;
